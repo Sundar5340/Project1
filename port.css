@@ -1,0 +1,105 @@
+    .nav {
+            width:100%;
+            left: 0;
+            justify-content: end;
+            padding: 20px;
+			position:fixed;
+            background-color:#ff003d;
+            font-size: 20px;
+            font-weight: bold;
+            font-family:times new roman;
+        }
+     .about{
+            background-color:#000000;
+            text-align: center;
+            padding: 150px;
+			font-family:serif;
+        }
+     h1{
+            font-size:60px;
+			
+       }
+	.work{
+		  text-align:center;
+		  background-color:#b4b4b4;
+		  font-size: 10px;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		 
+      }
+	.grid{
+		 display: grid;
+		 grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));
+         grid-gap: 4rem;
+         width: 100%;
+         max-width: 1280px;
+         margin: 0 auto;
+         margin-bottom: 6rem;
+		
+       }
+    #omg1{
+			 text-decoration: none;
+		 }
+       
+         img {
+         border: 5px solid #000000;
+      }
+    .contact{
+	  background-color:#4d4571;
+	  
+         }
+  
+	.fa {
+       padding: 20px;
+       font-size: 30px;
+       width: 100px;
+       text-align: center;
+       border-radius: 50%;
+       }
+   
+    .fa-facebook {
+          background: #3B5998;
+          color: white;
+         }
+    .fa-twitter {
+       background: #55ACEE;
+       color: white;
+         }
+    .fa-linkedin{
+	   background: #0072b1;
+     color: white;
+         }
+
+    .fa-instagram{
+	  background:#ff4573;
+      color: white
+          }
+	  
+	#omg2{
+		  text-decoration:none;
+	      }
+	  
+
+    footer{
+  
+    text-align: center;
+           }
+	  
+    hr{
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 2px;
+          }
+	  
+	.fa:hover {
+        opacity: 0.7;
+		color:#ffffff;
+          }
+	   
+	
+    
+	  
+	  
